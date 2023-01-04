@@ -11,19 +11,6 @@ body {
 
 }
 
-footer {
-
-/* delete inside to get rid of the colur separation for footer image */
-
-    /* background-image: url("../images/svg.png");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: 70rem;
-    height: 20rem;
-    width: 100%; */
-}
-
-
 
 
 #first-section {
@@ -76,9 +63,6 @@ footer {
 
 }
 
-#third-section {
-
-}
 
 
 
@@ -124,9 +108,7 @@ footer {
     border-bottom: 3px solid red;
   }
   
-  /* .navbar a.active {
-    border-bottom: 3px solid red;
-  } */
+
 
 
   /* Trasform Effect */
