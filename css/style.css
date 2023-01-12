@@ -157,6 +157,8 @@ body {
   
     /* Set a specific height */
     min-height: 100vh; 
+
+    max-height: 100vh;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -177,3 +179,58 @@ body {
     z-index: 0;
 
   }
+
+
+  _::-webkit-full-page-media, _:future, :root .safari_only {
+
+
+
+
+
+  }
+
+
+  @media not all and (min-resolution:.001dpcm) { @media {
+
+    .safari_only {
+}
+}}
+
+
+@media only screen and (max-width: 768px) {
+
+    .parallax {
+        /* The image used */
+        background-image: url("../images/laptop1.jpg");
+      
+        /* Set a specific height */
+        min-height: 40vh; 
+    
+        max-height: 40vh;
+      
+        /* Create the parallax scrolling effect */
+        background-position-y: 0;
+        background-position-x: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 40%;
+    
+        position: relative;
+      }
+    
+      .fixed-text{
+    
+        position: fixed;
+        height: 20vh;
+        left: 30%;
+        top: 10%;
+        color: white;
+        z-index: 0;
+    
+      }
+
+
+    
+}
+
+
