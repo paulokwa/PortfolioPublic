@@ -13,6 +13,17 @@ body {
 
 
 
+
+
+#work-list{
+
+    
+    
+
+}
+
+
+
 #first-section {
 
     font-family: Arial, sans-serif;
@@ -101,6 +112,7 @@ body {
         left: 0;
         z-index: 2;
         font-family: Arial, sans-serif;
+       
 
 }
 
@@ -182,9 +194,6 @@ body {
 
 
   _::-webkit-full-page-media, _:future, :root .safari_only {
-
-
-
 
 
   }
