@@ -240,43 +240,46 @@ body {
 /* Safari (from 6.1 to 10.0) */
 
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+  .parallax {
+    /* The image used */
+    background-image: url("../images/laptop1.jpg");
+  
+    /* Set a specific height */
+    min-height: 30vh; 
 
-    
+    max-height: 40vh;
+  
+    /* Create the parallax scrolling effect */
+    background-position-y: 0;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
 
+    position: relative;
 
-    .parallax {
-        /* The image used */
-        background-image: url("../images/laptop1.jpg");
-      
-        /* Set a specific height */
-        min-height: 30vh; 
-    
-        max-height: 40vh;
-      
-        /* Create the parallax scrolling effect */
-        background-position-y: 0;
-        background-position-x: center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: 100%;
-    
-        position: relative;
-      }
-    
-      .fixed-text{
-    
-        position: fixed;
-        height: 20vh;
-        left: 30%;
-        top: 10%;
-        color: white;
-        transform: translate3d(0, 0, 0);
-        z-index: 0;
-    
-      }
+    transform: translate3d(0, 0, 0);
+    z-index: 0;
+  }
 
+  .fixed-text{
 
+    position: fixed;
+    height: 20vh;
+    left: 30%;
+    top: 10%;
+    color: white;
+    transform: translate3d(0, 0, 0);
+    z-index: 1;
 
+  }
+
+  .last-layer { 
+    position: relative;
+    margin-top: 5em;
+    transform: translate3d(0, 0, 0);
+    z-index: 2;
+  }
 
 }
 
@@ -285,8 +288,6 @@ body {
 
 @media not all and (min-resolution:.001dpcm) { 
 
-    
-    
     .parallax {
         /* The image used */
         background-image: url("../images/laptop1.jpg");
@@ -304,6 +305,9 @@ body {
         background-size: 100%;
     
         position: relative;
+
+        transform: translate3d(0, 0, 0);
+        z-index: 0;
       }
     
       .fixed-text{
@@ -314,11 +318,16 @@ body {
         top: 10%;
         color: white;
         transform: translate3d(0, 0, 0);
-        z-index: 0;
-    
+        z-index: 1;
+
       }
 
-
+      .last-layer { 
+        position: relative;
+        margin-top: 5em;
+        transform: translate3d(0, 0, 0);
+        z-index: 2;
+      }
 
 }
 
