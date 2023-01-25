@@ -193,17 +193,7 @@ body {
   }
 
 
-  _::-webkit-full-page-media, _:future, :root .safari_only {
 
-
-  }
-
-
-  @media not all and (min-resolution:.001dpcm) { @media {
-
-    .safari_only {
-}
-}}
 
 
 @media only screen and (max-width: 768px) {
@@ -242,4 +232,91 @@ body {
     
 }
 
+
+
+
+
+
+/* Safari (from 6.1 to 10.0) */
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+
+    
+
+
+    .parallax {
+        /* The image used */
+        background-image: url("../images/laptop1.jpg");
+      
+        /* Set a specific height */
+        min-height: 40vh; 
+    
+        max-height: 40vh;
+      
+        /* Create the parallax scrolling effect */
+        background-position-y: 0;
+        background-position-x: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 40%;
+    
+        position: relative;
+      }
+    
+      .fixed-text{
+    
+        position: fixed;
+        height: 20vh;
+        left: 30%;
+        top: 10%;
+        color: white;
+        z-index: 0;
+    
+      }
+
+
+
+
+}
+
+
+/* Safari (10.1+) */
+
+@media not all and (min-resolution:.001dpcm) { 
+
+    
+    
+    .parallax {
+        /* The image used */
+        background-image: url("../images/laptop1.jpg");
+      
+        /* Set a specific height */
+        min-height: 40vh; 
+    
+        max-height: 40vh;
+      
+        /* Create the parallax scrolling effect */
+        background-position-y: 0;
+        background-position-x: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 40%;
+    
+        position: relative;
+      }
+    
+      .fixed-text{
+    
+        position: fixed;
+        height: 20vh;
+        left: 30%;
+        top: 10%;
+        color: white;
+        z-index: 0;
+    
+      }
+
+
+
+}
 
