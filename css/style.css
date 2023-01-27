@@ -182,16 +182,17 @@ body {
   }
 
   .fixed-text{
-
     position: fixed;
     height: 50vh;
     left: 30%;
     top: 30%;
     color: white;
     z-index: 0;
-
   }
 
+  .fixed-text h1 {
+    font-size: 2.5vw;
+  }
 
 
 
@@ -233,15 +234,10 @@ body {
 
 
 @media only screen and (max-width: 412px) {
-
- 
   
     .fixed-text{
-      
-      
+           
       top: 4%;
-
-
     }
 
     #second-section {
@@ -250,14 +246,12 @@ body {
   
 }
 
-
 @media only screen and (max-width: 540px) {
 
  
   
   .fixed-text{
-    
-    
+       
     top: 10%;
     
   }
@@ -269,23 +263,22 @@ body {
 }
 
 
-@media only screen and (max-width: 390px) {
 
+/* Safari (10.1+) */
 
+@media not all and (min-resolution:.001dpcm) { 
 
- 
-  
   .fixed-text{
-    
-    font-size: 3.0vw;
     top: 10%;
     
   }
 
-  #second-section {
-    margin-top: 1em;
+  .fixed-text h1 {
+    font-size: 3vw;
   }
 
+
 }
+
 
 
