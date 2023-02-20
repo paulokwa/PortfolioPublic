@@ -1,0 +1,62 @@
+body {
+    background: #1B244A;
+    margin: 0;
+    text-align: center;
+    border-style: solid;
+    min-height: 100vh;
+}
+
+#home-score, #guest-score{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    text-align: center;
+    height: 120px;
+    left: 100px;
+    top: 125px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: none;
+}
+
+
+h3{
+    
+font-family: 'Verdana';
+color: white;
+}
+
+#home-score-btn-1{
+border: 2px solid #9AABD8;
+border-radius: 5px;
+color: #9AABD8;
+box-sizing: border-box;
+}
+
+
+
+#reset-btn{
+    
+    float: left;
+    clear: both;
+
+    height:em;
+    border: 2px solid #9AABD8;
+    border-radius: 91px;
+    color: #9AABD8;
+    box-sizing: border-box;
+
+
+}
