@@ -4,6 +4,8 @@ body {
     text-align: center;
     border-style: solid;
     min-height: 100vh;
+    background-image: url('../images/basketballscoreboardpicture.jpg');
+
 }
 
 #home-score, #guest-score{
