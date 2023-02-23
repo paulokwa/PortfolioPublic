@@ -1,6 +1,7 @@
 function sendToGoogle() {
     let nameField = $('#name').val()
-    //let emailField = 
+    let emailField = $('#name').val()
+    let messageField = $('#name').val()
 
     $.ajax({
         url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdPg0_xFoW2It9UBZv40wA8aPTwR05u9MzUuszlx2QZf3EM1Q/formResponse",
