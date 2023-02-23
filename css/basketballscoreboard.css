@@ -2,7 +2,6 @@ body {
     background: #1B244A;
     margin: 0;
     text-align: center;
-    border-style: solid;
     min-height: 100vh;
     background-image: url('../images/basketballscoreboardpicture.jpg');
 
@@ -86,9 +85,7 @@ box-sizing: border-box;
 }
 
 
-  .navbar .navbar-nav {
-    height: 3.5vh;
-  }
+
   
   .navbar a:hover {
     border-bottom: 3px solid red;
