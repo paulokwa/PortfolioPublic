@@ -6,6 +6,26 @@ body {
     min-height: 100vh;
     background-image: url('../images/basketballscoreboardpicture.jpg');
 
+
+
+
+background-position: center center;
+
+
+background-repeat: no-repeat;
+
+
+background-attachment: fixed;
+
+
+background-size: cover;
+
+
+
+
+    
+
+
 }
 
 #home-score, #guest-score{
@@ -22,11 +42,13 @@ body {
     left: 100px;
     top: 125px;
     
+    
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    
 }
 
 button {
@@ -62,3 +84,12 @@ box-sizing: border-box;
 
 
 }
+
+
+  .navbar .navbar-nav {
+    height: 3.5vh;
+  }
+  
+  .navbar a:hover {
+    border-bottom: 3px solid red;
+  }
