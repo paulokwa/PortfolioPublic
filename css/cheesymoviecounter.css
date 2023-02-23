@@ -1,7 +1,7 @@
 /* Cheesy Movie CSS */
 
 
-
+html, body { height: 100% }
 
 body {
     background-image: url("../images/cheesymovie.jpg");
