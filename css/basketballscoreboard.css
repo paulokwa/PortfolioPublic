@@ -2,7 +2,7 @@
 
 body {
     background: #1B244A;
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
     min-height: 100vh;
     background-image: url('../images/basketballscoreboardpicture.jpg');
@@ -128,7 +128,7 @@ background: none;
   .border-center {
     background-color: yellow;
     border: 10px solid blue; /* this sets the border style */
-    margin: 0; /* this centers the div horizontally */
+    margin: 0 auto; /* this centers the div horizontally */
     padding: 20px; /* this adds padding to the content within the div */
 }
 
