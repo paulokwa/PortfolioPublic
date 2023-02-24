@@ -8,4 +8,10 @@ body {
     border-bottom: 3px solid red;
   }
 
- 
+  .navbar{
+  
+    right: 0;
+    left: 0;
+    z-index: 2;
+    font-family: Arial, sans-serif;
+  }

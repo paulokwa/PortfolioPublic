@@ -8,6 +8,7 @@ body {
     background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
+
    
 }
 
@@ -22,7 +23,10 @@ h2 {
     margin-bottom: 20px;
 }
 
-button {
+
+
+#increment-btn {
+    background: darkred;
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -33,12 +37,16 @@ button {
     border-radius: 5px;
 }
 
-#increment-btn {
-    background: darkred;
-}
-
 #save-btn {
     background: darkgreen;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
 
 #center-text{
@@ -51,6 +59,12 @@ button {
     border-bottom: 3px solid red;
   }
 
-
+  .navbar{
+    
+    right: 0;
+    left: 0;
+    z-index: 2;
+    font-family: Arial, sans-serif;
+  }
 
 

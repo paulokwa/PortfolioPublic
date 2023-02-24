@@ -6,27 +6,10 @@ body {
     text-align: center;
     min-height: 100vh;
     background-image: url('../images/basketballscoreboardpicture.jpg');
-
-
-
-
-background-position: center center;
-
-
-background-repeat: no-repeat;
-
-
-background-attachment: fixed;
-
-
-background-size: cover;
-
-
-
-
-    
-
-
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #home-score, #guest-score{
@@ -91,4 +74,12 @@ box-sizing: border-box;
   
   .navbar a:hover {
     border-bottom: 3px solid red;
+  }
+
+  .navbar{
+    
+    right: 0;
+    left: 0;
+    z-index: 2;
+    font-family: Arial, sans-serif;
   }
