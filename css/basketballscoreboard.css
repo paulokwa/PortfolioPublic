@@ -1,4 +1,4 @@
-html, body { height: 100% }
+
 
 body {
     background: #1B244A;
@@ -11,6 +11,11 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+
+
+
+
 
 #home-score, #guest-score{
     font-family: 'Cursed Timer ULiL', sans-serif;
@@ -35,9 +40,6 @@ body {
     
 }
 
-button {
-    background: none;
-}
 
 
 h3{
@@ -51,6 +53,7 @@ border: 2px solid #9AABD8;
 border-radius: 5px;
 color: #9AABD8;
 box-sizing: border-box;
+background: none;
 }
 
 
@@ -65,6 +68,7 @@ box-sizing: border-box;
     border-radius: 91px;
     color: #9AABD8;
     box-sizing: border-box;
+    background: none;
 
 
 }
@@ -83,3 +87,83 @@ box-sizing: border-box;
     z-index: 2;
     font-family: Arial, sans-serif;
   }
+
+
+
+  
+
+
+  @media (min-width: 980px) {
+    body {
+      background-image: url("../images/basketballscoreboardpicture.jpg");
+
+      max-height: 50vh;
+
+      /* Create the parallax scrolling effect */
+      background-position-y: 0;
+      background-position-x: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      position: relative;
+
+
+
+    }
+}
+
+
+@media (max-width: 1320px) {
+  body {
+ 
+
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+  }
+
+
+  .border-center {
+    background-color: yellow;
+    border: 2px solid blue; /* this sets the border style */
+    margin: 3px auto; /* this centers the div horizontally */
+    padding: 20px; /* this adds padding to the content within the div */
+}
+
+
+
+
+}
+
+
+
+@media (max-width: 979px) {
+
+
+  .border-center {
+    background-color: yellow;
+    border: 2px solid blue; /* this sets the border style */
+    margin: 3px auto; /* this centers the div horizontally */
+    padding: 20px; /* this adds padding to the content within the div */
+}
+
+
+
+
+}
+
+@media (max-width: 767px) {
+
+
+    .border-center {
+      background-color: yellow;
+      border: 2px solid blue; /* this sets the border style */
+      margin: 3px auto; /* this centers the div horizontally */
+      padding: 20px; /* this adds padding to the content within the div */
+  }
+
+
+}
+
