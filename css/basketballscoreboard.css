@@ -127,8 +127,8 @@ background: none;
 
   .border-center {
     background-color: yellow;
-    border: 2px solid blue; /* this sets the border style */
-    margin: 3px auto; /* this centers the div horizontally */
+    border: 10px solid blue; /* this sets the border style */
+    margin: 0; /* this centers the div horizontally */
     padding: 20px; /* this adds padding to the content within the div */
 }
 
