@@ -2,7 +2,8 @@
 
 body {
     background: #1B244A;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     text-align: center;
     min-height: 100vh;
     background-image: url('../images/basketballscoreboardpicture.jpg');
@@ -25,11 +26,12 @@ body {
     font-size: 90px;
     color: #F94F6D;
     width: 120px;
-    margin: 20px;
+    margin: 0.5rem auto;
     text-align: center;
     height: 120px;
     left: 100px;
     top: 125px;
+    
     
     
 }
@@ -46,6 +48,7 @@ h3{
     
 font-family: 'Verdana';
 color: white;
+text-align: center;
 }
 
 #home-score-btn-1{
@@ -63,7 +66,7 @@ background: none;
     float: left;
     clear: both;
 
-    height:em;
+    overflow: hidden;
     border: 2px solid #9AABD8;
     border-radius: 91px;
     color: #9AABD8;
@@ -98,16 +101,12 @@ background: none;
       background-image: url("../images/basketballscoreboardpicture.jpg");
 
       max-height: 50vh;
-
-      /* Create the parallax scrolling effect */
       background-position-y: 0;
       background-position-x: center;
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: 100%;
       position: relative;
-
-
 
     }
 }
@@ -117,7 +116,7 @@ background: none;
   body {
  
 
-    background-position: left;
+    /* background-position: left; */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -127,9 +126,9 @@ background: none;
 
   .border-center {
     background-color: yellow;
-    border: 10px solid blue; /* this sets the border style */
-    margin: 0 auto; /* this centers the div horizontally */
-    padding: 20px; /* this adds padding to the content within the div */
+    border: 2px solid blue; 
+    margin: 0 auto; 
+    padding: 20px; 
 }
 
 
@@ -144,9 +143,9 @@ background: none;
 
   .border-center {
     background-color: yellow;
-    border: 2px solid blue; /* this sets the border style */
-    margin: 3px auto; /* this centers the div horizontally */
-    padding: 20px; /* this adds padding to the content within the div */
+    border: 2px solid blue; 
+    margin: 3px auto; 
+    padding: 20px; 
 }
 
 
@@ -159,11 +158,13 @@ background: none;
 
     .border-center {
       background-color: yellow;
-      border: 2px solid blue; /* this sets the border style */
-      margin: 3px auto; /* this centers the div horizontally */
-      padding: 20px; /* this adds padding to the content within the div */
+      border: 2px solid blue; 
+      margin: 3px auto; 
+      padding: 20px; 
   }
 
 
 }
+
+
 

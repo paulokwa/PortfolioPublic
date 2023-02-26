@@ -2,6 +2,8 @@
 
 $(window).resize(function() {
     calculateHeight()
+    const parallaxText = document.querySelector(".fixed-text")
+    parallaxText.style.display = "none"
 });
 
 $(window).on('load', function() {

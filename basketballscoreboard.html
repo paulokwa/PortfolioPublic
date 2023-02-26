@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Paul's Portfolio - Basket Ball Score Board</title>
+        <title>Paul's Portfolio - Basketball Score Board</title>
         
         
 
@@ -64,29 +64,35 @@
 
     
     
-        <div class="container position-absolute top-50 start-50 translate-middle border-center" >
-            <div class="home-box">
+    <div class="container position-absolute top-50 start-50 translate-middle border-center" >
+        <div class="row">
+
+            <div class="home-box col-6 col-lg-4">
                 <h3>HOME</h3>
                 <h2 id="home-score">0</h2>
-                <div id=addButtonsGuest>
+                <div class="d-flex justify-content-center" id=addButtonsGuest>
                 <button id="home-score-btn-1" onclick="increaseHomeScoreOne()">+ 1</button>
                 <button id="home-score-btn-1" onclick="increaseHomeScoreTwo()">+ 2</button>
                 <button id="home-score-btn-1" onclick="increaseHomeScoreThree()">+ 3</button>
                 </div>
             </div>
-            <div>
+            <div class="col-6 col-lg-4">
                 <h3>AWAY</h3>
                 <h2 id="guest-score">0</h2>
                 
-                <div id=addButtonsHome>
-                <button id="home-score-btn-1" onclick="increaseGuestScoreOne()">+ 1</button>
-                <button id="home-score-btn-1" onclick="increaseGuestScoreTwo()">+ 2</button>
-                <button id="home-score-btn-1" onclick="increaseGuestScoreThree()">+ 3</button>
+                <div class="d-flex justify-content-center" id=addButtonsHome>
+                    <button id="home-score-btn-1" onclick="increaseGuestScoreOne()">+ 1</button>
+                    <button id="home-score-btn-1" onclick="increaseGuestScoreTwo()">+ 2</button>
+                    <button id="home-score-btn-1" onclick="increaseGuestScoreThree()">+ 3</button>
+                </div>
             </div>
+
+            <div class="col-12 col-lg-4 d-flex justify-content-center">
+                <button  id="reset-btn" onclick="resetScore()">Reset Score</button>
+            </div>
+
         </div>
         
-        <button id="reset-btn" onclick="resetScore()">Reset Score</button>
-
     </div>
 
 
