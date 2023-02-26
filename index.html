@@ -49,8 +49,10 @@
 
 <main>
     <div class="parallax">
-        <div class="fixed-text">
-            <h1 class="centered intro-text presentation-text">I'm <strong>Kwame</strong> a Junior Full Stack Dev</h1>
+
+        <div class="fixed-text d-none d-xl-block">
+            <h1 class="centered intro-text presentation-text">Hiya!!! I'm <strong>Kwame</strong> a Full Stack Dev</h1>
+
         </div>
     </div>
 
@@ -162,19 +164,19 @@
                             using the form below, I reply quickly</p>
                     </div>
 
-                    <form class="shadow p-3 mb-5 bg-body rounded">
+                    <form id="formContact" onsubmit="return sendToGoogle();" class="shadow p-3 mb-5 bg-body rounded">
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
                             <input type="text" placeholder="Enter your name" class="form-control" id="name"
-                                   aria-describedby="name">
+                                   aria-describedby="name" name="entry.352931399">
                         </div>
 
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email
                                 address</label>
                             <input type="email" placeholder="Enter your Email address" class="form-control"
-                                   id="exampleInputEmail1"
-                                   aria-describedby="emailHelp">
+                                   id="email"
+                                   aria-describedby="emailHelp" name="entry.1287098885">
                             <div id="emailHelp" class="form-text">I'll never share your
                                 email with anyone else.
                             </div>
@@ -182,7 +184,7 @@
 
                         <div class="mb-3 ">
                             <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message"></textarea>
+                            <textarea class="form-control" id="message" name="entry.75384403"></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-primary">Submit</button>

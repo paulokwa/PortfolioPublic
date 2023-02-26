@@ -1,14 +1,15 @@
-/* Passenger Couter */
+/* Cheesy Movie CSS */
 
 
-
+html, body { height: 100% }
 
 body {
     background-image: url("../images/cheesymovie.jpg");
     background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
-    text-align: center;
+
+   
 }
 
 h1 {
@@ -22,7 +23,10 @@ h2 {
     margin-bottom: 20px;
 }
 
-button {
+
+
+#increment-btn {
+    background: darkred;
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -33,10 +37,42 @@ button {
     border-radius: 5px;
 }
 
-#increment-btn {
-    background: darkred;
-}
-
 #save-btn {
     background: darkgreen;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
+
+#center-text{
+
+    text-align: center;
+
+}
+
+
+.border-center {
+    background-color: #FB7213;
+    border: 2px solid blue; /* this sets the border style */
+    margin: 3px auto; /* this centers the div horizontally */
+    padding: 20px; /* this adds padding to the content within the div */
+}
+
+.navbar a:hover {
+    border-bottom: 3px solid red;
+  }
+
+  .navbar{
+    
+    right: 0;
+    left: 0;
+    z-index: 2;
+    font-family: Arial, sans-serif;
+  }
+
+

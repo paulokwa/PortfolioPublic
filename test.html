@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <link href="css/basketballscoreboard.css" rel="stylesheet">
+
+    <link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+    
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container m-lg-auto">
+                <a class="navbar-brand d-lg-none" href="index.html">Paul Kwame Oteng</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav m-lg-auto">
+                        <a class="navbar-brand d-none d-lg-block" href="index.html">Paul Kwame Oteng</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html#about-link">About</a>
+                        <a class="nav-link" href="workexamples.html">Work Examples</a>
+                        <a class="nav-link" href="index.html#contact-link">Contact</a>
+                        <a class="nav-link"
+                           href="https://drive.google.com/uc?id=1-O-s3TPSyGz6VhVbIgFjPd-Qs5-QPGkd&export=download">Download
+                            Resume</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+<main>
+
+
+    
+        <div class="container position-absolute top-50 start-50 translate-middle" >
+            <div class="home-box">
+                <h3>HOME</h3>
+                <h2 id="home-score">0</h2>
+                <div id=addButtonsGuest>
+                <button id="home-score-btn-1" onclick="increaseHomeScoreOne()">+ 1</button>
+                <button id="home-score-btn-1" onclick="increaseHomeScoreTwo()">+ 2</button>
+                <button id="home-score-btn-1" onclick="increaseHomeScoreThree()">+ 3</button>
+                </div>
+            </div>
+            <div>
+                <h3>AWAY</h3>
+                <h2 id="guest-score">0</h2>
+                
+                <div id=addButtonsHome>
+                <button id="home-score-btn-1" onclick="increaseGuestScoreOne()">+ 1</button>
+                <button id="home-score-btn-1" onclick="increaseGuestScoreTwo()">+ 2</button>
+                <button id="home-score-btn-1" onclick="increaseGuestScoreThree()">+ 3</button>
+            </div>
+        </div>
+        
+        <button id="reset-btn" onclick="resetScore()">Reset Score</button>
+
+    </main>      
+
+        
+        <script src="js/bootstrap/bootstrap.js"></script>
+        <script src="js/basketballscoreboard.js"></script>
+        <script src="https://kit.fontawesome.com/a0c7b17bed.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+</body>
+</html>

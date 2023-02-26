@@ -1,0 +1,17 @@
+body {
+    background: rgb(215,211,208);
+    background: linear-gradient(90deg, rgba(215,211,208,1) 0%, rgba(253,253,253,1) 28%, rgba(249,247,248,1) 100%);
+    margin: 0;
+  }
+
+  .navbar a:hover {
+    border-bottom: 3px solid red;
+  }
+
+  .navbar{
+  
+    right: 0;
+    left: 0;
+    z-index: 2;
+    font-family: Arial, sans-serif;
+  }
