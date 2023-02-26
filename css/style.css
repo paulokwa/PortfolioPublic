@@ -122,7 +122,7 @@ body {
 
 .fixed-text{
   position: fixed;
-  height: 50vh;
+  height: 40vh;
   left: 30%;
   top: 30%;
   color: white;
@@ -154,7 +154,6 @@ body {
     position: fixed;
     height: 20vh;
     left: 30%;
-    top: 6%;
     color: white;
     z-index: 0;
   }
@@ -176,6 +175,14 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
+  }
+
+  .fixed-text{
+    position: fixed;
+    height: 10vh;
+    left: 30%;
+    color: white;
+    z-index: 0;
   }
 }
 
