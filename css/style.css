@@ -122,7 +122,7 @@ body {
 
 .fixed-text{
   position: fixed;
-  height: 40vh;
+  height: 30vh;
   left: 30%;
   top: 30%;
   color: white;
@@ -195,4 +195,34 @@ body {
   .fixed-text h1 {
     font-size: 3vw;
   }
+}
+
+
+.fa-php {
+  color: #4D588E;
+}
+
+.fa-python{
+  color: #19405B;
+}
+
+.fa-js{
+  color: #EFD81D;
+}
+.fa-java{
+  color: #5382A1;
+}
+
+.fa-joomla{
+  color: #F78F33;
+}
+.fa-cuttlefish{
+  color: #9C033A;
+}
+.fa-c{
+  color: #03589B;
+}
+
+.fa-html5{
+  color: #E34F26;
 }
