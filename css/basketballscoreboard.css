@@ -129,6 +129,7 @@ background: none;
     border: 2px solid blue; 
     margin: 0 auto; 
     padding: 20px; 
+    background: linear-gradient(to right, #fff 20%, #fff 40%, #ECD08C 50%, #ECD08C 55%, #fff 70%, #fff 100%);
 }
 
 
@@ -165,6 +166,7 @@ background: none;
 
 
 }
+
 
 
 
