@@ -1,15 +1,27 @@
 /* Cheesy Movie CSS */
 
 
-html, body { height: 100% }
+html,
+body {
+    height: 100%
+}
 
 body {
     background-image: url("../images/cheesymovie.jpg");
     background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
+}
 
-   
+.navbar a:hover {
+    border-bottom: 3px solid red;
+}
+
+.navbar {
+    right: 0;
+    left: 0;
+    z-index: 2;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
@@ -22,8 +34,6 @@ h2 {
     margin-top: 0;
     margin-bottom: 20px;
 }
-
-
 
 #increment-btn {
     background: darkred;
@@ -49,31 +59,14 @@ h2 {
     border-radius: 5px;
 }
 
-#center-text{
-
+#center-text {
     text-align: center;
-
 }
-
 
 .border-center {
     background-color: #FB7213;
     background: linear-gradient(to right, #FB7213 20%, #fff 40%, #ECD08C 50%, #ECD08C 55%, #fff 70%, #FB7213 100%);
-    border: 2px solid blue; /* this sets the border style */
-    margin: 3px auto; /* this centers the div horizontally */
-    padding: 20px; /* this adds padding to the content within the div */
+    border: 2px solid blue;
+    margin: 3px auto;
+    padding: 20px;
 }
-
-.navbar a:hover {
-    border-bottom: 3px solid red;
-  }
-
-  .navbar{
-    
-    right: 0;
-    left: 0;
-    z-index: 2;
-    font-family: Arial, sans-serif;
-  }
-
-

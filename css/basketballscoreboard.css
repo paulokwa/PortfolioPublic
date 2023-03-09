@@ -1,172 +1,125 @@
-
-
 body {
-    background: #1B244A;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    min-height: 100vh;
-    background-image: url('../images/basketballscoreboardpicture.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background: #1B244A;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url('../images/basketballscoreboardpicture.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 
+.navbar a:hover {
+  border-bottom: 3px solid red;
+}
+
+.navbar {
+  right: 0;
+  left: 0;
+  z-index: 2;
+  font-family: Arial, sans-serif;
+}
 
 
-
-
-#home-score, #guest-score{
-    font-family: 'Cursed Timer ULiL', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    background: #0a0001;
-    font-size: 90px;
-    color: #F94F6D;
-    width: 120px;
-    margin: 0.5rem auto;
-    text-align: center;
-    height: 120px;
-    left: 100px;
-    top: 125px;
-    
-    
-    
+#home-score,
+#guest-score {
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: #0a0001;
+  font-size: 90px;
+  color: #F94F6D;
+  width: 120px;
+  margin: 0.5rem auto;
+  text-align: center;
+  height: 120px;
+  left: 100px;
+  top: 125px;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    
+  display: flex;
+  justify-content: space-around;
 }
 
 
-
-h3{
-    
-font-family: 'Verdana';
-color: white;
-text-align: center;
+h3 {
+  font-family: 'Verdana';
+  color: white;
+  text-align: center;
 }
 
-#home-score-btn-1{
-border: 2px solid #9AABD8;
-border-radius: 5px;
-color: #9AABD8;
-box-sizing: border-box;
-background: none;
+#home-score-btn-1 {
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  color: #9AABD8;
+  box-sizing: border-box;
+  background: none;
 }
 
-
-
-#reset-btn{
-    
-    float: left;
-    clear: both;
-
-    overflow: hidden;
-    border: 2px solid #9AABD8;
-    border-radius: 91px;
-    color: #9AABD8;
-    box-sizing: border-box;
-    background: none;
-
-
+#reset-btn {
+  float: left;
+  clear: both;
+  overflow: hidden;
+  border: 2px solid #9AABD8;
+  border-radius: 91px;
+  color: #9AABD8;
+  box-sizing: border-box;
+  background: none;
 }
 
 
+/* Media Queries */
 
-  
-  .navbar a:hover {
-    border-bottom: 3px solid red;
+@media (min-width: 980px) {
+  body {
+    background-image: url("../images/basketballscoreboardpicture.jpg");
+    max-height: 50vh;
+    background-position-y: 0;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
   }
-
-  .navbar{
-    
-    right: 0;
-    left: 0;
-    z-index: 2;
-    font-family: Arial, sans-serif;
-  }
-
-
-
-  
-
-
-  @media (min-width: 980px) {
-    body {
-      background-image: url("../images/basketballscoreboardpicture.jpg");
-
-      max-height: 50vh;
-      background-position-y: 0;
-      background-position-x: center;
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-size: 100%;
-      position: relative;
-
-    }
 }
 
 
 @media (max-width: 1320px) {
   body {
- 
-
-    /* background-position: left; */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    
   }
 
 
   .border-center {
     background-color: yellow;
-    border: 2px solid blue; 
-    margin: 0 auto; 
-    padding: 20px; 
+    border: 2px solid blue;
+    margin: 0 auto;
+    padding: 20px;
     background: linear-gradient(to right, #fff 20%, #fff 40%, #ECD08C 50%, #ECD08C 55%, #fff 70%, #fff 100%);
+  }
 }
-
-
-
-
-}
-
 
 
 @media (max-width: 979px) {
-
-
   .border-center {
     background-color: yellow;
-    border: 2px solid blue; 
-    margin: 3px auto; 
-    padding: 20px; 
-}
-
-
-
-
+    border: 2px solid blue;
+    margin: 3px auto;
+    padding: 20px;
+  }
 }
 
 @media (max-width: 767px) {
-
-
-    .border-center {
-      background-color: yellow;
-      border: 2px solid blue; 
-      margin: 3px auto; 
-      padding: 20px; 
+  .border-center {
+    background-color: yellow;
+    border: 2px solid blue;
+    margin: 3px auto;
+    padding: 20px;
   }
-
-
 }
-
-
-
-
