@@ -83,9 +83,10 @@ h2 {
 }
 
 .border-center {
+    box-shadow: 10px 10px 20px 10px #0000ff;
     background-color: #FB7213;
     background: linear-gradient(to right, #FB7213 20%, #fff 40%, #ECD08C 50%, #ECD08C 55%, #fff 70%, #FB7213 100%);
-    border: 2px solid blue;
+    border: 2px solid rgb(202, 105, 20);
     margin: 3px auto;
     padding: 20px;
 }
