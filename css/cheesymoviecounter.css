@@ -91,3 +91,13 @@ h2 {
     padding: 20px;
     
 }
+
+
+  #save-btn:hover {
+    background-color: #4CAF50;
+
+  }
+
+  #increment-btn:hover {
+    background-color: #4CAF50;
+  }
